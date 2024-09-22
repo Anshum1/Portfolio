@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Anshuman Gupta</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#Extra">Skill/Hobbies</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Anshuman Gupta</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div> <!--to close and open menu js function-->
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li> 
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#Extra" onclick="toggleMenu()">Skill/Hobbies</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./another photo-fotor-2024092113158.png" alt="Anshuman Gupta Profile Pciture"
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I am </p>
+            <h1 class="title">Anshuman Gupta</h1>
+            <p class="section__text__p2">Data Analyst Enthusiast</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" 
+                onclick="window.open('./RESUMEOF(ANSHUMAN).pdf')">
+                DOWNLOAD CV</button>
+
+                <button class="btn btn-color-1" 
+                onclick="location.href='./#contact'">
+                CONTACT INFO
+                </button>
+
+
+            </div>
+            <div id="socials-container"></div>
+                <img src="linkedin.png" alt="My linkedin Profile"
+                class="icon" onclick="location.href=
+                'https://www.linkedin.com/in/anshuman-gupta-7b141725b/'">
+
+            <img src="github.png" alt="My Github Profile"
+            class="icon" onclick="location.href=
+            'https://github.com/Anshum1/'">
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to know more!</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="me.jpg" alt="Profile Picture"
+                class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="experience.png" alt="experience icon"
+                        class="icon"/>
+                        <h3>Internships</h3>
+                        <p>Business Developer Intern @Mezenga (09/2024 - Current)<br>
+                            Key Skills: Commuication, Data Analysis,Marketing, Business Development<br>
+
+                            <br>Business Developer Intern @Sociosip (04/2024-05/2024) 
+                            <br>Key Skills: Social Media Marketing, Presentation, Business Development, Data Analysis
+                            </p>
+                    </div>
+                    <div class="details-container">
+                        <img src="education.png" alt="Education icon"
+                        class="icon"/>
+                        <h3>Education</h3>
+                        <p>B.E. (2021-2025) <br>@JSSATE, Bengaluru- Information Science and Engineering<br> Grade till 6th semester-8.58(CGPA)</p>
+                        <br>
+                        <p>XII (2019-2021) <br>@Gauthami Junior College - Hyderabad, Telangana <br>Grade- 89.2%</p>
+                        <br>
+                        <p>X (2017-2019) <br>@Silver Oaks Internation School - Hyderabad, Telangana <br>Grade- 84.2%</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p><b>A final year student of B.E. in Information Science with a passion for learning and innovation, I excel
+                        academically with hands-on experience in Data Analysis, Social Media Marketing, Sales, and
+                        Visualization. I am Enthusiastic about learning, contributing to project success, and helping companies
+                        grow exponentially</b></p>
+                </div>
+            </div>
+        </div>
+        <img src="arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projects'"/>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="diwali_sales.jpg" alt="Project 1" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project btn" onclick="location.href='https://github.com/Anshum1/'">
+                        Github
+                    </button>
+                    
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="powerbiedit.jpeg" alt="Project 2" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project btn" onclick="location.href='https://github.com/Anshum1/'">
+                        Github
+                    </button>
+
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="1_l4xICbIIYlz1OTymWCoUTw.jpg" alt="Project 3" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project btn" onclick="location.href='https://github.com/Anshum1/'">
+                        Github
+                    </button>
+                    
+                </div>
+            </div>
+        </div>
+        <img src="arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#Extra'"/>
+    </section>
+    <br><br><br><br>
+    <section id="Extra">
+        <p class="section__text__p1">Extra-Curriculum</p>
+        <h1 class="title">Skill/Hobbies</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Skills </h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="checkmark.png" alt="Extra icon"
+                            class="icon"/>
+                            <div>
+                                <h3>MS Power BI</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Extra icon"
+                            class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Extra icon"
+                            class="icon"/>
+                            <div>
+                                <h3>MS Excel</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Extra icon"
+                            class="icon"/>
+                            <div>
+                                <h3>MySQL</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Extra icon"
+                            class="icon"/>
+                            <div>
+                                <h3>DSA(C++)</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Extra icon"
+                            class="icon"/>
+                            <div>
+                                <h3>HTML, CSS, JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Hobbies </h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="checkmark.png" alt="Extra icon"
+                            class="icon"/>
+                            <div>
+                                <h3>Basketball</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Extra icon"
+                            class="icon"/>
+                            <div>
+                                <h3>Travaling</h3>
+                                <p>Many Countries</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Extra icon"
+                            class="icon"/>
+                            <div>
+                                <h3>NSS Member</h3>
+                                <p>Helping students, planting plants</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Extra icon"
+                            class="icon"/>
+                            <div>
+                                <h3>Youtuber</h3>
+                                <p>@anshumatic <br>(Travelling, informative vlogs)</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Find my profiles</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="email.png" alt="email icon" class="icon contact-icon email-icon"/>
+                <p><a href="mailto:examplemail@gmail.com">anshum2.mgupta@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="linkedin.png" alt="Linkedin icon" class="icon contact-icon"/>
+                <p><a href="https://www.linkedin.com/in/anshuman-gupta-7b141725b/">LinkedIn</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="youtube.png" alt="Linkedin icon" class="icon contact-icon"/>
+                <p><a href="https://www.youtube.com/@anshumatic/">Youtube</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#Extra">Skill/Hobbies</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Anshuman Gupta. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
