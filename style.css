@@ -16,7 +16,7 @@ html{
 }
 
 p{
-    color: 		rgb(212,175,55);
+    color: rgb(40, 81, 138);
     
 }
 
@@ -44,7 +44,7 @@ nav{
 }
 
 a{
-    color: rgb(100, 180, 57);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     text-decoration-color: white;
 }
@@ -58,7 +58,7 @@ a:hover{
 
 .logo{
     font-size: 30px;
-    color: rgb(100, 180, 57);   
+    color: rgb(40, 81, 138);   
 }
 
 .logo{
@@ -173,8 +173,6 @@ section{
     width: 400px;
     justify-content: center;
     margin: auto 0;
-    
-
 }
 
 .section__text{
